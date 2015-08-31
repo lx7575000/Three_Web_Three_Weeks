@@ -1,0 +1,129 @@
+/* line 37, ../sass/style.scss */
+body {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #3e3e3e;
+  background-color: #eeeeee;
+  width: 100%;
+}
+
+/* line 45, ../sass/style.scss */
+header {
+  padding: 0 1em;
+  background-color: #0ac285;
+}
+/* line 49, ../sass/style.scss */
+header li {
+  float: left;
+  list-style: none;
+}
+/* line 53, ../sass/style.scss */
+header li a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 1em 1em;
+}
+/* line 60, ../sass/style.scss */
+header li:hover {
+  background-color: #09aa74;
+}
+/* line 13, ../sass/style.scss */
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 67, ../sass/style.scss */
+.hero {
+  width: 100%;
+  min-height: 50em;
+  top: -4.2em;
+  position: relative;
+  background-color: #333333;
+  z-index: 1;
+}
+/* line 76, ../sass/style.scss */
+.hero:after {
+  background: url("../images/hero.jpg");
+  background-size: cover;
+  position: absolute;
+  content: "";
+  z-index: -1;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+/* line 89, ../sass/style.scss */
+.hero h2 {
+  font-size: 6em;
+  font-weight: bold;
+  padding: 3em 0 1em 0;
+  text-transform: uppercase;
+  color: white;
+}
+/* line 97, ../sass/style.scss */
+.hero p {
+  max-width: 70%;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #cecece;
+  line-height: 1.4;
+  margin: 0 auto;
+  padding: 1em 0 8em 0;
+}
+/* line 105, ../sass/style.scss */
+.hero p span {
+  color: #0ac285;
+}
+
+/* line 111, ../sass/style.scss */
+.topics {
+  padding: 2em 0 4em 0;
+}
+/* line 113, ../sass/style.scss */
+.topics h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #0ac285;
+  padding: 2em 0;
+}
+/* line 26, ../sass/style.scss */
+.topics h3:after {
+  content: " ";
+  display: block;
+  background-color: #ccc;
+  width: 2em;
+  height: .2em;
+  margin: .4em auto;
+}
+/* line 117, ../sass/style.scss */
+.topics li {
+  float: left;
+  width: 33.3%;
+  list-style: none;
+}
+/* line 126, ../sass/style.scss */
+.topics li h4 {
+  font-size: 2em;
+  padding: 1em 0;
+  font-weight: bold;
+}
+/* line 132, ../sass/style.scss */
+.topics li p {
+  line-height: 1.4;
+  color: #6e6e6e;
+  padding: 0 8em;
+  margin-bottom: 4em;
+}
+/* line 13, ../sass/style.scss */
+.topics:after {
+  content: "";
+  display: table;
+  clear: both;
+}

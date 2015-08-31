@@ -1,0 +1,63 @@
+@import 'compass/css3';
+@import 'compass/reset';
+
+$background-color:#eeeeee;
+ $text-color:#3e3e3e;
+ $light-text-color:#eeeeee;
+ $heading-color:hsl(160,
+90%,
+40%);
+ $mask-color:#333333;
+
+
+li{
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    position: relative;
+    
+    height: 22em;
+    overflow: hidden;
+    
+    .case{
+        width: 10%;
+    }
+    
+    &:hover{
+        .mask{
+            top:0;
+        }
+    }
+    
+    .mask{
+        display: block;
+        position: absolute;
+        top: -22em;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: $text-color;
+        opacity: .1;
+    }
+}
+
+.information {
+    position: absolute;
+    background-color: $text-color;
+    top:22em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+    transition: all .4s ease-in-out;
+    text-align: left;
+    padding: 0 1em;
+    box-sizing: border-box;
+    color: white;
+    
+    h3{
+        font-size: 2em;
+        padding: 1em 0;
+    }
+}
+    

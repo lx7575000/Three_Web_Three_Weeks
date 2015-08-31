@@ -1,0 +1,167 @@
+.start-section .container {
+    width: 960px;
+    margin: 0 auto;
+}
+/*Section Start*/
+
+.start-section {
+    background-image: url(./images/image1.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+/*Header*/
+
+.navbar {
+    opacity: 0.6;
+}
+#logo a {
+    color: #000;
+    font-size: 300;
+    font-size: 1.7em;
+    left: 5px;
+}
+.navbar ul {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.navbar ul li {
+    padding: 5px;
+    display: inline-block;
+}
+.main-nav ul li:first-child {
+    margin-right: 70%;
+}
+.nav-list a {
+    font-weight: 300;
+    font-size: 1.1em;
+    color: aliceblue;
+}
+.navbar ul li a {
+    text-decoration: none;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+.Sign-In {
+    padding: 5px;
+    border: 1px solid black;
+}
+.start-section article {
+    margin-top: 6em;
+}
+.start-section article h1 {
+    width: 30%;
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.start-section article h3 {
+    width: 28%;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: bold;
+}
+.start-section article h3 span {
+    color: #F9D376;
+}
+#signup button {
+    width: 30%;
+    font-size: 0.5em;
+    height: 35px;
+    background-color: #266FBF;
+    border: 0 solid #266FBF;
+}
+#signin input {
+    width: 20%;
+    height: 35px;
+}
+.or {
+    color: aliceblue;
+    font-size: 0.5em;
+    margin: 8px;
+    margin-left: 13%;
+}
+#signin button {
+    width: 9%;
+    height: 35px;
+    background-color: #3FBEF4;
+}
+/*Logo*/
+
+.logo-list {
+    background-color: #F9FAFB;
+    overflow: hidden;
+}
+.logo-item {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.logo-item li {
+    list-style: none;
+    float: left;
+    width: 25%;
+}
+.logo-item li img {
+    width: 100%;
+}
+
+.detail-list{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.detail-list h2 {
+    color: #BFC4CB;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.detail-list h2:after {
+    content: "";
+    display: table;
+    margin: 0 auto;
+    width: 10%;
+    border-bottom: 3px solid #BFC4CB;
+}
+.detail-item {
+    list-style: none;
+}
+.detail-item li {
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+}
+.detail-item li:nth-child(even) img {
+    float: right;
+    width: 25.3%;
+}
+.detail-item li:nth-child(odd) img {
+    float: left;
+    width: 25.3%;
+}
+.detail-item li:nth-child(even) .detail-description {
+    overflow: hidden;
+    text-align: left;
+    padding: 25px;
+    margin-right: 20em;
+}
+.detail-item li:nth-child(odd) .detail-description {
+    overflow: hidden;
+    text-align: left;
+    padding: 25px;
+    margin-left: 20em;
+}
+.detail-description h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.detail-description p {
+    font-size: 1.1em;
+    font-style: italic;
+}
