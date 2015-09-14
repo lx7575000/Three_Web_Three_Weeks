@@ -1,0 +1,379 @@
+/*Comment CSS*/
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after, .clearfix:before{
+    content: ' ';
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+section {
+    display: block;
+}
+
+body{
+    margin: 0;
+    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    color: #606060;
+    line-height: 1.8;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+p{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+section{
+    display: block;
+    margin: 0 auto;
+}
+
+.faq, how, .target{
+    padding: 2rem 1rem;
+    margin-bottom: 2em;
+}
+/*Header CSS*/
+
+header{
+    display: block;
+    height: 14em;
+    background-color: #00bcd4;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+header h1{
+    font-size: 8em;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    text-shadow: 2px 1px 1px #6d6d6d;
+    position: absolute;
+    top: -0.7em;
+    left: 50%;
+    margin-left: -550px;
+}
+
+/*Button CSS*/
+.hamburger{
+    background: transparent center center no-repeat;
+    background-size: 32px 32px;
+    border: 0;
+    display: block;
+    height: 54px;
+    overflow: hidden;
+    text-indent: -9999px;
+    position: absolute;
+    top: 8px;
+    width: 48px;
+    z-index: 2;
+    left: 12px;
+    background-image: url(http://qd.haoduoshipin.com/assets/hamburger-913b8cb99f37ccfb8559fdcfa6014858.svg);
+}
+
+.ui-mask{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    opacity: 0.1;
+    visibility: hidden;
+    width: 100%;
+    z-index: 3;
+    position: fixed;
+}
+
+.course-intro{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    width: 960px;
+    margin-top: -2em;
+    background-color: #fff;
+}
+
+/*courese-detail*/
+
+.course-cover{
+    width: 70%;
+    height: 21.5em;
+    float: left;
+    background-image: url(http://qd.haoduoshipin.com/assets/course_cover-222ea78949468dff28f354a969302d88.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.courese-detail{
+    height: 100%;
+    width: 30%;
+    float: right;
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+h1.common-title{
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: 1.7rem;
+    margin-top: 1.3rem;
+}
+
+.common-title{
+    font-family: inherit;
+    line-height: 1;
+}
+
+.common-title, .common-content{
+    color: #606060;
+}
+
+.common-content{
+    opacity: 0.95;
+    font-size: 1rem;
+}
+
+.common-content span.hi{
+    color: #ff4081;
+    font-weight: bold;
+}
+
+.courese-detail .start-btn{
+    margin-top: 0.9em;
+}
+
+.button{
+    position: relative;
+    transition: all .3s ease-out;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2em;
+    background-color: #ff4081;
+    display: inline-block;
+    min-width: 8em;
+    font-weight: 600;
+    padding: .6em 1em;
+    border-radius: .3em;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+
+/*Target CSS*/
+.target{
+    padding: 2rem 1rem;
+    margin-bottom: 2em;
+}
+.target-item {
+    width: 25%;
+    float: left;
+    margin-bottom: 2em;
+}
+
+.target-item-icon{
+    float: none;
+    height: 5em;
+    width: 5em;
+    padding-top: 0.9em;
+    margin-left: .5em;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #00bcd4;
+}
+.target-item-icon svg {
+    display: block;
+    margin: 0 auto;
+    fill: white;
+    width: 3.2em;
+    height: 3.2em;
+}
+
+p.common-content{
+    opacity: 0.91;
+    font-size: 1rem;
+}
+
+.target-item-content{
+    margin-left: 0;
+    text-align: center;
+    padding: 0 1em;
+}
+
+/*How CSS*/
+
+.how-item{
+    width: 33.333%;
+    float: left;
+    margin-bottom: 2em;
+}
+
+.how-item-icon{
+    float: none;
+    width: 100%;
+    height: 6em;
+}
+
+.how-item-icon svg{
+    display: block;
+    margin: 0 auto;
+    fill: #00bcd4;
+    width: 5em;
+    height: 5em;
+}
+
+.how-item-content{
+    margin-left: 0;
+    padding: 0 8%;
+    width: 100%;
+    text-align: center;
+}
+
+h3.common-title{
+    font-size: 1.2em;
+    margin-bottom: .2em;
+    margin-top: .2em;
+}
+
+/*Footer CSS*/
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 3em;
+}
+
+footer img{
+    width: 20%;
+    float: left;
+}
+
+footer .text{
+    width: 70%;
+    float: right;
+}
+
+/*Peter CSS*/
+
+img{
+    display: block;
+}
+
+.peter-sidebar-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+    margin-top: 40px;
+}
+
+.peter-sidebar-name{
+    text-align: center;
+    color: white;
+}
+
+.peter-sidebar{
+    background-color: #00bcd4;
+    padding-bottom: 2em;
+    
+    width: 35%;
+    height: 24em;
+    float: left;
+    border-radius: .3em 0 0 .3em;
+}
+
+.peter-sidebar-intro {
+    text-align: center;
+    padding: 0 5%;
+    color: white;
+}
+
+h1.common-title {
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: 1.7rem;
+    margin-top: 1.3rem;
+    
+    display: none;
+}
+
+.peter-main{
+    height: 24em;
+    width: 65%;
+    padding: 2em;
+    float: right;
+    border-right: 0 .3em .3em 0;
+}
+
+.haoduo .peter-main-item-icon{
+    background-color: #fba919;
+}
+
+a.peter-main-item-icon{
+    display: block;
+    float: left;
+    width: 6em;
+    height: 6em;
+    padding: 1em 0;
+    margin-bottom: 1em;
+}
+
+a.peter-main-item-icon img{
+    width: 4em;
+    margin: 0 auto;
+}
+
+.peter-main-item-content{
+    margin-left: 7em;
+}
+
+.faq-item{
+    margin-bottom: 2.3em;
+}
+
+.faq-item .q{
+    font-size: 1.7em;
+    font-weight: normal;
+    color: #00bcd4;
+}
+
+.faq-common-title{
+    color: #606060;
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: 1.7rem;
+    margin-top: 1.3rem;
+}
+
+.what-main-card{
+    width: 100%;
+    padding: 1.5rem 1rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    margin: 3em auto;
+    background: #fff;
+}
+
+.what-main-card img{
+    width: 80%;
+    margin: 2em auto;
+}
